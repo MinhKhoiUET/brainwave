@@ -19,7 +19,7 @@ const Benefits = () => {
             // console.log(item.backgroundUrl);
             return (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%]  md:max-w-[24rem]"
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%]  md:max-w-[24rem] mx-auto"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
@@ -46,7 +46,7 @@ const Benefits = () => {
 
               <div
                 className="absolute inset-0.5 bg-n-8"
-                // style={{ clipPath: "url(#benefits)" }}
+                style={{ clipPath: "url(#benefits)" }}
               >
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
                   {item.imageUrl && (
