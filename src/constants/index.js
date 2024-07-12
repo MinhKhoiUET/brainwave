@@ -116,6 +116,7 @@ export const roadmap = [
     date: "May 2023",
     status: "done",
     imageUrl: roadmap3,
+    
   },
   {
     id: "3",
@@ -124,6 +125,7 @@ export const roadmap = [
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap4,
+    colorful: true,
   },
 ];
 
